@@ -36,7 +36,7 @@ public class Task02 {
         // TODO: Write your code here
         System.out.println("Write how many cups of coffee you will need:");
         System.out.print(">>> ");
-        int cupsOfCoffee=Integer.parseInt(scanner.nextLine());
+        int cupsOfCoffee=scanner.nextInt();
         int water=cupsOfCoffee*200;
         int milk=cupsOfCoffee*50;
         int coffeeBeans=cupsOfCoffee*15;
